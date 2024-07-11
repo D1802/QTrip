@@ -1,4 +1,4 @@
-### Application Under Test-> QTrip Adventure Booking Website
+# Application Under Test-> QTrip Adventure Booking Website
 The application under test is QTrip, a travel website.
 
 During the course of this project,:
@@ -9,10 +9,10 @@ During the course of this project,:
 4) Implemented a Singleton pattern for initializing Wedbriver to use resources effectively.
 5) Generated customized test reports for the TestNG project using Extent Reports.
 
-# TestCase_01 --> "Verify user  Registration- Login-Logout"
-# TestCase_02 -->  "Verify Search and Filter"
-# TestCase_03 --> "Booking and Cancellation Flow"
-# TestCase_04 -->  "Verify that Booking history and Booking Flow of the Website"
+#### TestCase_01 --> "Verify user  Registration- Login-Logout"
+#### TestCase_02 -->  "Verify Search and Filter"
+#### TestCase_03 --> "Booking and Cancellation Flow"
+#### TestCase_04 -->  "Verify that Booking history and Booking Flow of the Website"
 
 Executed all the important user flows in QTrip manually to understand the application
 Analyzed the test cases to be automated.

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T16:06:35 IST" name="Default suite" finished-at="2024-07-11T16:07:36 IST" duration-ms="60852">
+    <groups>
+      <group name="Login Flow">
+        <method signature="testCase_01.TestCase01(java.lang.String,java.lang.String)[pri:1, instance:qtrip.testCase_01@173ed316]" name="TestCase01" class="qtrip.testCase_01"/>
+      </group> <!-- Login Flow -->
+    </groups>
+    <test started-at="2024-07-11T16:06:35 IST" name="Default test" finished-at="2024-07-11T16:07:36 IST" duration-ms="60852">
+      <class name="qtrip.testCase_01">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:qtrip.testCase_01@173ed316]" started-at="2024-07-11T16:06:35 IST" name="createDriver" finished-at="2024-07-11T16:06:38 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="TestCase01(java.lang.String,java.lang.String)[pri:1, instance:qtrip.testCase_01@173ed316]" started-at="2024-07-11T16:06:39 IST" name="TestCase01" description="Verify user  Registration- Login-Logout" data-provider="data-provider" finished-at="2024-07-11T16:07:27 IST" duration-ms="48620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+        <test-method signature="TestCase01(java.lang.String,java.lang.String)[pri:1, instance:qtrip.testCase_01@173ed316]" started-at="2024-07-11T16:07:27 IST" name="TestCase01" description="Verify user  Registration- Login-Logout" data-provider="data-provider" finished-at="2024-07-11T16:07:32 IST" duration-ms="4750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TESTUSER@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+        <test-method signature="TestCase01(java.lang.String,java.lang.String)[pri:1, instance:qtrip.testCase_01@173ed316]" started-at="2024-07-11T16:07:32 IST" name="TestCase01" description="Verify user  Registration- Login-Logout" data-provider="data-provider" finished-at="2024-07-11T16:07:36 IST" duration-ms="3697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123_USER_low@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QWERTY!!!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:qtrip.testCase_01@173ed316]" started-at="2024-07-11T16:07:36 IST" name="quitDriver" finished-at="2024-07-11T16:07:36 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- qtrip.testCase_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
